@@ -2,9 +2,9 @@
   "name": "vite-plugin-corp-headers",
   "version": "1.0.0",
   "description": "An example that shows how to create a custom Vite plugin",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsup"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,13 @@
   "bugs": {
     "url": "https://github.com/chariotsolutions/vite-plugin-corp-headers/issues"
   },
-  "homepage": "https://github.com/chariotsolutions/vite-plugin-corp-headers#readme"
+  "homepage": "https://github.com/chariotsolutions/vite-plugin-corp-headers#readme",
+  "peerDependencies": {
+    "vite": "^4.0.0"
+  },
+  "devDependencies": {
+    "tsup": "^6.5.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.0.0"
+  }
 }

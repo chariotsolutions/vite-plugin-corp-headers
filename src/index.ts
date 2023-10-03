@@ -1,4 +1,4 @@
-import { Plugin, ResolvedConfig } from "vite";
+import { Plugin } from "vite";
 
 type PluginOptions = {
     coop: string;
