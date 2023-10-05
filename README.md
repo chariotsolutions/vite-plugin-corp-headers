@@ -1,5 +1,4 @@
 # **vite-plugin-corp-headers**
-![vite-plugin-corp-headers](https://github.com/chariotsolutions/vite-plugin-corp-headers)
 
 An example that shows how to create a custom Vite plugin
 
